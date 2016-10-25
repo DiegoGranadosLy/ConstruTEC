@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info__obra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tec.diegogranados.construtec.Info_Obra"
+    tools:showIn="@layout/app_bar_info__obra">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/principal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Nombre_Obra_Info_Obra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la Obra"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ing_Arq_Info_Obra"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Ing_Arq_Info_Obra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Ingeniero"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cliente_Info_Obra"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Cliente_Info_Obra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Cliente"
+                android:textSize="15dp" />
+
+            <ListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:id="@+id/list_View_Info_Obra" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Button_Nueva_Etapa"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Button_Etapa" />
+
+        <Button
+            android:id="@+id/Button_Presupuesto"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Button_Presupuesto" />
+
+    </LinearLayout>
+
+</RelativeLayout>

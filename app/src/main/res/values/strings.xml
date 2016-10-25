@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">ConstruTEC</string>
+
+    <!-- Inicio de strings de ventana Inicio-->
+    <string name="Ingresar_main">Ingresar</string>
+    <string name="Registrar_main">Registrarse</string>
+    <!-- Fin de los strings de ventana Inicio-->
+
+    <!-- Inicio de strings de ventana de Log-In-->
+    <string name="nombre_Log_In">Ingrese su nombre</string>
+    <string name="contrasena_Log_In">Ingrese su contraseña</string>
+    <string name="Boton_Ingresar_Log_In">Ingresar</string>
+    <string name="Bienvenido">Bienvenido_</string>
+    <string name="Invalido">Entradas invalidas</string>
+    <!-- Fin de strings de ventana de Log-In -->
+
+    <!-- Inicio de los strings de la ventana de Registry-->
+    <string name="Nombre_Registro">Ingrese su Nombre</string>
+    <string name="Cedula_Registro">Ingrese su numero de cedula</string>
+    <string name="Telefono_Registro">Ingrese su numero de telefono</string>
+    <string name="Contrasena_Registro">Ingrese su contraseña</string>
+    <string name="Rol_Registro">Rol</string>
+    <string name="Boton_Ingresar_Registrar">Ingresar</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main__memu">Main_Memu</string>
+    <string name="title_activity_main__menu">Main_Menu</string>
+    <string name="Usuario_General">Usuario General</string>
+    <string name="Ing_Arq">Ingeniero Arquitecto</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Administrador">Administrador</string>
+    <!-- Fin de los strings de la ventana de Registry-->
+
+    <!-- Inicio de los Strings de la ventana Main Menu-->
+    <string name="Usuario_Main_Menu">Usuario:</string>
+    <string name="Acceso_Main_Menu">Nivel de acceso:</string>
+    <!-- Fin de los Strings de la ventana Main Menu -->
+
+
+    <!-- Inicio de los strings del nav-header-->
+    <string name="Proyecto_Header">CONSTRU-TEC</string>
+    <string name="Proyecto_correo">constru_tec@gmail.com</string>
+    <!-- Fin de los strings del nav-Header-->
+
+    <!-- Inicio de los strings del main_menu_drawer-->
+    <string name="Home">Pagina Principal</string>
+    <string name="Ing_arq">Ingenieros y Arquitectos</string>
+    <string name="Clientes">Lista de clientes</string>
+    <string name="Materiales">Lista de materiales</string>
+    <string name="Obras">Lista de Obras</string>
+    <string name="Pedidos">Lista de pedidos</string>
+    <string name="B_Proyecto">Buscar Proyecto</string>
+    <string name="B_Material">Buscar Material</string>
+    <string name="Buscar">Buscar</string>
+    <!-- Fin de los strings del main_menu_drawer-->
+
+    <!-- -->
+    <string name="action_search">Material o Proyecto</string>
+    <string name="title_activity_ingenieros__y__arquitectos">Ingenieros y Arquitectos</string>
+    <string name="title_activity_cliente">Clientes</string>
+    <string name="title_activity_material">Materiales</string>
+    <string name="title_activity_obra">Obras</string>
+    <string name="title_activity_pedido">Pedidos</string>
+    <string name="Salir">Salir</string>
+    <!-- -->
+
+    <!-- -->
+    <string name="Nombre">Nombre</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Cedula">Cedula</string>
+    <string name="title_activity_info__obra">Informacion de la Obra</string>
+    <!-- -->
+
+    <!-- Inicio de los Strings de la ventana de Info_Obra e info Obra Pedido -->
+    <string name="Obra">Obra</string>
+    <string name="Ing_Arq_Info_Obra">Ingeniero o Arquitecto</string>
+    <string name="Cliente_Info_Obra">Cliente</string>
+    <string name="Etapa">Etapa</string>
+    <string name="Button_Presupuesto">Generar Presupuesto</string>
+    <string name="Button_Etapa">Nueva Etapa</string>
+    <string name="title_activity_info_por__pedido_de__obra">Informacion del Pedido</string>
+    <string name="Fecha_Inicio">Fecha de Inicio</string>
+    <string name="Fecha_Fin">Fecha de finalizaciòn</string>
+    <string name="Costo_Total">El costo total es de:</string>
+    <string name="title_activity_agregar__etapa">Agregar_Etapa</string>
+    <string name="Comentar">Comentar</string>
+    <string name="Comentarios">Comentarios</string>
+    <string name="title_activity_comentarios_por__obra">Comentarios_por_Obra</string>
+    <!-- Fin de los Strings de la ventana de Info_Obra e Info Obra Pedido -->
+
+    <!-- Inicio Strings de los pasos de datos entre Ventanas-->
+    <string name="Nombre_Paso_Parametros">Nombre</string>
+    <string name="Acceso_Paso_Parametros">Nivel de Acceso</string>
+    <string name="Busqueda_Paso_Parametros">Busqueda</string>
+
+    <!-- Fin Strings de los pasos de datos entre Ventanas-->
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/nav_Ing_Arq"
+            android:icon="@mipmap/ic_supervisor_account_black_24dp"
+            android:title="@string/Ing_arq" />
+        <item
+            android:id="@+id/nav_Clientes"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="@string/Clientes" />
+        <item
+            android:id="@+id/nav_Materiales"
+            android:icon="@mipmap/ic_perm_identity_black_24dp"
+            android:title="@string/Materiales" />
+        <item
+            android:id="@+id/nav_Obras"
+            android:icon="@mipmap/ic_assignment_ind_black_24dp"
+            android:title="@string/Obras" />
+        <item
+            android:id="@+id/nav_Pedidos"
+            android:icon="@mipmap/ic_euro_symbol_black_24dp"
+            android:title="@string/Pedidos" />
+        <item
+            android:id="@+id/nav_Salir"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="@string/Salir" />
+
+    </group>
+
+</menu>

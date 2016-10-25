@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tec.diegogranados.construtec">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Log_In" />
+        <activity android:name=".Registry" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Menu_Principal"
+            android:label="@string/title_activity_main__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Buscar_Proyecto" />
+        <activity android:name=".Buscar_Material" />
+        <activity
+            android:name=".Ingenieros_Y_Arquitectos"
+            android:label="@string/title_activity_ingenieros__y__arquitectos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Clientes"
+            android:label="@string/title_activity_cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Material"
+            android:label="@string/title_activity_material"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Obra"
+            android:label="@string/title_activity_obra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pedido"
+            android:label="@string/title_activity_pedido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info_Obra"
+            android:label="@string/title_activity_info__obra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info_por_Pedido_de_Obra"
+            android:label="@string/title_activity_info_por__pedido_de__obra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Agregar_Etapa"
+            android:label="@string/title_activity_agregar__etapa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comentarios_por_Obra"
+            android:label="@string/title_activity_comentarios_por__obra"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

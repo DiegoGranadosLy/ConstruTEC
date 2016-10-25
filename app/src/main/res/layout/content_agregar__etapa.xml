@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_agregar__etapa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tec.diegogranados.construtec.Agregar_Etapa"
+    tools:showIn="@layout/app_bar_agregar__etapa"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="20dp"
+        android:text="Nombre de la Etapa"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Nombre_Etapa"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Fecha_Inicio_Nueva_Etapa"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:text="D-M-AAAA"
+                />
+
+            <Button
+                android:id = "@+id/Button_Fecha_Inicio_Nueva_Etapa"
+                android:layout_width = "wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fecha_Inicio"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Fecha_Fin_Nueva_Etapa"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:text="D-M-AAAA"
+                />
+
+            <Button
+                android:id = "@+id/Button_Fecha_Fin_Nueva_Etapa"
+                android:layout_width = "wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fecha_Fin"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/List_View_Agregar_Etapa" />
+
+    <Button
+        android:id="@+id/Button_Agregar_Etapa"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Agregar Etapa"/>
+
+
+</LinearLayout>

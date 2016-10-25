@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tec.diegogranados.construtec.Registry">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_add_user" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/Nombre_Registro"
+                android:gravity="center_horizontal"
+                />
+
+          <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/nombre_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/Cedula_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:inputType="numberPassword"
+                android:id="@+id/cedula_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/Telefono_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:id="@+id/telefono_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+               android:text="@string/Telefono_Registro"
+                android:gravity="center_horizontal"
+                />
+
+           <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:id="@+id/contrasena_Registro"
+                android:gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox_Usuario_General"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/Usuario_General" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Ing_Arq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/Ing_arq" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/Cliente" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Administrador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/Administrador" />
+
+            <Button
+                android:id = "@+id/button_Registry_Registrar"
+                android:layout_width = "match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_Ingresar_Registrar"
+                >
+            </Button></LinearLayout>
+    </ScrollView>
+</RelativeLayout>
